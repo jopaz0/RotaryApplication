@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="CommonText">#FF000000</color>
+    <color name="Primary1">#FF0067C8</color>
+    <color name="Primary2">#FF00A2E0</color>
+    <color name="Primary3">#FF17458F</color>
+    <color name="Primary4">#FFF7A81B</color>
+    <color name="Secondary1">#FFD41367</color>
+    <color name="Secondary2">#FF00ADBB</color>
+    <color name="Secondary3">#FF901F93</color>
+    <color name="Secondary4">#FFFF7600</color>
+    <color name="Greyed1">#FFD0CFCD</color>
+    <color name="Greyed2">#FFB1B1B1</color>
+    <color name="Pastel1">#FFB9D9EB</color>
+
+
+</resources>

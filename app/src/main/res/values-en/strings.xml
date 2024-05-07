@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_txbox_passhint">Password</string>
+    <string name="main_txt_welcome">"Welcome, "</string>
+    <string name="main_menu3">Club Administration</string>
+    <string name="main_menu4">District Administration</string>
+    <string name="main_menu5">Agency Administration</string>
+    <string name="main_about_us">About Rotary</string>
+    <string name="about_us_summary">Rotary is a global network of 1.4 million neighbors, friends, leaders, and problem-solvers who see a world where people unite and take action to create lasting change – across the globe, in our communities, and in ourselves.</string>
+    <string name="about_us_content_1">Solving real problems takes real commitment and vision. For more than 110 years, Rotary\'s people of action have used their passion, energy, and intelligence to take action on sustainable projects. From literacy and peace to water and health, we are always working to better our world, and we stay committed to the end.</string>
+    <string name="about_us_subtitle_2">What we do</string>
+    <string name="about_us_content_2">Rotary members believe that we have a shared responsibility to take action on our world’s most persistent issues. Our 46,000+ clubs work together to:  Promote peace Fight disease Provide clean water, sanitation, and hygiene Save mothers and children Support education Grow local economies Protect the environment</string>
+    <string name="about_us_subtitle_3">Our mission</string>
+    <string name="about_us_content_3">We provide service to others, promote integrity, and advance world understanding, goodwill, and peace through our fellowship of business, professional, and community leaders.</string>
+    <string name="about_us_subtitle_4">Vision statement</string>
+    <string name="about_us_content_4">Together, we see a world where people unite and take action to create lasting change — across the globe, in our communities, and in ourselves.</string>
+    <string name="about_us_subtitle_5">We work differently</string>
+    <string name="about_us_content_5">We see differently: Our multidisciplinary perspective helps us see challenges in unique ways.  We think differently: We apply leadership and expertise to social issues — and find unique solutions.  We act responsibly: Our passion and perseverance create lasting change.  We make a difference at home and around the world: Our members can be found in your community and across the globe.</string>
+    <string name="about_us_subtitle_6">Diversity, Equity, and Inclusion</string>
+    <string name="about_us_content_6">As a global network that strives to build a world where people unite and take action to create lasting change, Rotary values diversity and celebrates the contributions of people of all backgrounds, regardless of their age, ethnicity, race, color, abilities, religion, socioeconomic status, culture, sex, sexual orientation, and gender identity.</string>
+    <string name="about_us_subtitle_7">Visit One Rotary Center</string>
+    <string name="about_us_content_7">Discover how Rotary creates lasting change when you visit One Rotary Center in Evanston, Illinois, USA</string>
+    <string name="about_me_title">Developers</string>
+    <string name="about_me_description_1">Daniel is a passionate web developer with a meticulous focus on code quality and user usability. With experience in HTML, CSS, and JavaScript, he creates elegant and functional interfaces that captivate users and meet project objectives.</string>
+    <string name="login_btn_exit">Exit</string>
+    <string name="login_txbox_userhint">Username</string>
+    <string name="login_btn_login">Login</string>
+    <string name="main_menu1">Personal Info</string>
+    <string name="main_exit">Exit</string>
+    <string name="about_us_who_are_we">Who we are</string>
+    <string name="about_me_description_2">María is a creative and adaptable web developer who combines solid technical skills with an artistic vision. Specializing in responsive design and frameworks like Bootstrap, María transforms concepts into attractive, high-performance websites that stand out in the competitive digital world.</string>
+    <string name="about_me_description_3">Pedro is a versatile and results-oriented web developer with a solid experience in both back-end and front-end. With expertise in PHP, Python, and React, Pedro leads projects from planning to implementation, ensuring the timely delivery of innovative and scalable web solutions.</string>
+    <string name="main_about_autor">About Us</string>
+    <string name="about_us_back">Back</string>
+</resources>

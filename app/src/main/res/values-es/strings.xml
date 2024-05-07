@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_btn_exit">Salir</string>
+    <string name="login_txbox_userhint">Usuario</string>
+    <string name="login_txbox_passhint">Contraseña</string>
+    <string name="login_btn_login">Ingresar</string>
+    <string name="main_txt_welcome">"Bienvenido, "</string>
+    <string name="main_menu1">Informacion personal</string>
+    <string name="main_menu3">Administracion del club</string>
+    <string name="main_menu4">Administracion distrital</string>
+    <string name="main_menu5">Administracion de Agencia</string>
+    <string name="main_about_us">Acerca de Rotary</string>
+    <string name="main_exit">Salir</string>
+    <string name="about_us_who_are_we">Quienes somos</string>
+    <string name="about_us_summary">Rotary es una red mundial compuesta de 1 400 000 vecinos, amigos, líderes y personas dedicadas a solucionar problemas, quienes ven un planeta en que las personas se unen y toman acción para generar un cambio perdurable en el mundo, sus comunidades y en sí mismos.</string>
+    <string name="about_us_content_1">Para resolver los problemas más acuciantes, la dedicación y la visión son requisitos indispensables. Por más de 110 años, la gente de acción de Rotary ha abordado los problemas más graves con pasión, energía y competencia. Ya se traten de proyectos de alfabetización, el fomento de la paz, y el acceso a fuentes de agua y atención de la salud, nos esforzamos por mejorar el mundo, siempre perseverantes hasta cumplir con nuestro cometido.</string>
+    <string name="about_us_subtitle_2">Qué hacemos</string>
+    <string name="about_us_content_2">Como socios de Rotary asumimos la responsabilidad de tomar acción, a fin de abordar los problemas más perniciosos que afectan a la humanidad. Unidos con nuestros 46 000 clubes: Promovemos la paz Combatimos enfermedades Proporcionamos acceso al agua salubre, saneamiento y fomentamos buenos hábitos de higiene Protegemos a madres e hijos Fomentamos la educación Desarrollamos las economías locales Protegemos el medioambiente</string>
+    <string name="about_us_subtitle_3">Nuestra misión</string>
+    <string name="about_us_content_3">Nuestra misión es brindar servicio a los demás, promover la integridad y fomentar la comprensión, la buena voluntad y la paz entre las naciones a través de las actividades de compañerismo de nuestros líderes empresariales, profesionales y cívicos.</string>
+    <string name="about_us_subtitle_4">Declaración de la visión de Rotary</string>
+    <string name="about_us_content_4">Juntos contemplamos un mundo donde las personas se unen y toman acción para generar un cambio perdurable en nosotros mismos, en nuestras comunidades y en el mundo entero.</string>
+    <string name="about_us_subtitle_5">Por qué nos diferenciamos</string>
+    <string name="about_us_content_5">Percibimos las cosas de manera distinta: Nos valemos de nuestra perspectiva multidisciplinaria para afrontar los desafíos desde diversos enfoques.  Tenemos nuestra propia manera de pensar: Ponemos nuestro liderazgo y experiencia profesional a servicio de los demás para solucionar los problemas sociales que afectan a nuestras comunidades.  Somos responsables: Con nuestra pasión y perseverancia generamos el cambio permanente.  Marcamos la diferencia en nuestros países y alrededor del mundo: Nuestros socios trabajan en odas las comunidades y continentes.</string>
+    <string name="about_us_subtitle_6">Diversidad, equidad e inclusión</string>
+    <string name="about_us_content_6">Como red mundial que se esfuerza por construir un mundo en el que las personas se unen y toman medidas para crear un cambio duradero, Rotary valora la diversidad y celebra las contribuciones de personas de todas las procedencias, independientemente de su edad, origen étnico, raza, color, facultades, religión, estatus socioeconómico, cultura, sexo, orientación sexual e identidad de género.</string>
+    <string name="about_me_title">Creadores</string>
+    <string name="about_me_description_1">Daniel es un desarrollador web apasionado con un enfoque meticuloso en la calidad del código y la usabilidad del usuario. Con experiencia en HTML, CSS y JavaScript, crea interfaces elegantes y funcionales que cautivan a los usuarios y cumplen con los objetivos del proyecto.</string>
+    <string name="about_us_subtitle_7">Visita One Rotary Center</string>
+    <string name="about_us_content_7">Descubre cómo Rotary genera un cambio duradero durante tu visita a One Rotary Center (sede mundial de Rotary International) en Evanston, Illinois (EE. UU.).</string>
+    <string name="about_me_description_2">María es una desarrolladora web creativa y adaptable que combina habilidades técnicas sólidas con una visión artística. Especializada en diseño responsive y frameworks como Bootstrap, María transforma conceptos en sitios web atractivos y de alto rendimiento que destacan en el competitivo mundo digital.</string>
+    <string name="about_me_description_3">Pedro es un desarrollador web versátil y orientado a los resultados con una sólida experiencia en back-end y front-end. Expertise en PHP, Python y React, Pedro lidera proyectos desde la planificación hasta la implementación, asegurando la entrega oportuna de soluciones web innovadoras y escalables.</string>
+    <string name="main_about_autor">Nosotros</string>
+    <string name="about_us_back">Volver</string>
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CommonText"
+    android:backgroundTint="@color/Primary3"
+    android:textAlignment="center"
+    tools:context=".AboutAuthorActivity">
+
+    <TextView
+        android:id="@+id/about_me_txt_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/about_me_title"
+        android:textAlignment="center"
+        android:textColor="@color/Primary4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/about_me_logo"
+        app:layout_constraintEnd_toStartOf="@+id/about_me_logo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/about_me_btn_back"
+        app:layout_constraintTop_toBottomOf="@+id/about_me_btn_back"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/about_me_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Primary2"
+        android:backgroundTintMode="add"
+        android:onClick="GoBack"
+        android:text="@string/about_us_back"
+        android:textColor="@color/CommonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/about_me_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_logo_gold" />
+
+    <ScrollView
+        android:id="@+id/aboutus_scrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_me_logo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--BLOQUE DE IMAGEN + SUBTITULO + CONTENIDO -->
+            <ImageView
+                android:id="@+id/about_me_img_1"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="50sp"
+                android:src="@drawable/daniel_papita" />
+            <!--Barrita separadora de bajo presupuesto--><TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/about_me_txt_name_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_name_1"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/about_me_txt_description_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_description_1"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/about_me_mail_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_mail_1"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/about_me_tel_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_telephone_1"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <!--Barrita separadora de bajo presupuesto-->
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+            <!--BLOQUE DE IMAGEN + SUBTITULO + CONTENIDO -->
+            <ImageView
+                android:id="@+id/about_me_img_coworker_2"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="50sp"
+                android:src="@drawable/maria_kartoffeln" />
+            <!--Barrita separadora de bajo presupuesto--><TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/about_me_txt_name_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_name_2"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/about_me_txt_description_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_description_2"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/about_me_mail_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_mail_2"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/about_me_tel_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_telephone_2"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <!--Barrita separadora de bajo presupuesto--><TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+            <!--BLOQUE DE IMAGEN + SUBTITULO + CONTENIDO -->
+            <ImageView
+                android:id="@+id/about_me_img_coworker_3"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="50sp"
+                android:src="@drawable/pedro_potet" />
+            <!--Barrita separadora de bajo presupuesto--><TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/about_me_txt_name_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_name_3"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/about_me_txt_description_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_description_3"
+                android:textAlignment="center"
+                android:textColor="@color/Pastel1"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/about_me_mail_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_mail_3"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/about_me_tel_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me_telephone_3"
+                android:textAlignment="center"
+                android:textColor="@color/Secondary2"
+                android:textSize="20sp" />
+            <!--Barrita separadora de bajo presupuesto-->
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

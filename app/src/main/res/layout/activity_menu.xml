@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary3"
+    android:padding="0sp">
+
+    <Button
+        android:id="@+id/menu_btn_meetings3"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/Primary4"
+        android:onClick="Logout"
+        android:text="@string/main_exit"
+        android:textColor="@color/CommonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/about_me_btn_back"
+        app:layout_constraintStart_toStartOf="@+id/menu_btn_meetings2" />
+
+    <Button
+        android:id="@+id/menu_btn_meetings2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Primary4"
+        android:onClick="open_RotaryInfo"
+        android:text="@string/main_about_us"
+        android:textColor="@color/CommonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/menu_btn_meetings3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/about_me_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/Primary2"
+        android:backgroundTintMode="add"
+        android:onClick="open_AuthorInfo"
+        android:text="@string/main_about_autor"
+        android:textColor="@color/CommonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/menu_btn_meetings2" />
+
+    <ImageView
+        android:id="@+id/about_me_logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_logo_gold" />
+
+    <TextView
+        android:id="@+id/about_me_txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_txt_welcome"
+        android:textAlignment="center"
+        android:textColor="@color/Primary4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_me_logo" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_btn_meetings2"
+        app:layout_constraintEnd_toEndOf="@+id/menu_btn_meetings2"
+        app:layout_constraintStart_toStartOf="@+id/menu_btn_meetings2"
+        app:layout_constraintTop_toBottomOf="@+id/about_me_txt_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical"
+            android:padding="10sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/menu_btn_agency"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0sp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="@color/Greyed2"
+                android:text="@string/main_menu5"
+                android:textColor="@color/CommonText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/menu_btn_member"
+                app:layout_constraintHorizontal_bias="0.612"
+                app:layout_constraintStart_toStartOf="@+id/menu_btn_member"
+                app:layout_constraintTop_toBottomOf="@+id/menu_btn_district" />
+
+            <Button
+                android:id="@+id/menu_btn_member"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0sp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="@color/Greyed2"
+                android:text="@string/main_menu1"
+                android:textColor="@color/CommonText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/about_me_txt_title" />
+
+            <Button
+                android:id="@+id/menu_btn_club"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0sp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="@color/Greyed2"
+                android:text="@string/main_menu3"
+                android:textColor="@color/CommonText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/menu_btn_member"
+                app:layout_constraintStart_toStartOf="@+id/menu_btn_member"
+                app:layout_constraintTop_toBottomOf="@+id/menu_btn_member" />
+
+            <Button
+                android:id="@+id/menu_btn_district"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0sp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="@color/Greyed2"
+                android:text="@string/main_menu4"
+                android:textColor="@color/CommonText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/menu_btn_member"
+                app:layout_constraintStart_toStartOf="@+id/menu_btn_member"
+                app:layout_constraintTop_toBottomOf="@+id/menu_btn_club" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
